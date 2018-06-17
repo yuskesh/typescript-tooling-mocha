@@ -1,0 +1,45 @@
+{
+  "name": "typescript-tooling-mocha",
+  "version": "1.0.0",
+  "description": "Basic TypeScript Tooling Set using mocha/nyt",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.spec.ts",
+    "cover": "nyc npm t",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Yusuke Shinozaki",
+  "license": "MIT",
+  "nyc": {
+    "extension": [
+      ".ts",
+      ".tsx"
+    ],
+    "include": [
+      "src"
+    ],
+    "exclude": [
+      "**/*.d.ts"
+    ],
+    "reporter": [
+      "html"
+    ],
+    "sourceMap": true,
+    "all": true
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.2",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "prettier": "^1.13.5",
+    "source-map-support": "^0.5.6",
+    "ts-node": "^6.1.1",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}
