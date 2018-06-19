@@ -16,23 +16,27 @@ Visual Studio Code (vscode) might be a good option for dev-environment with Type
 ## TestRunner / Assertion
 
 ### mocha
-For tiny npm modules.
+For tiny npm modules. pretty concise.
 
 ### Jest
-Jest has significant overhead compared to mocha. But if you're creating mid/big-sized application, it looks promising. It has nice features like parallel testing, built-in coverage/mocking tool.
+If you're creating mid/big-sized application, it has nice features like parallel testing, built-in coverage/mocking tool.
 
 
 ## Linter / Formatter
 
 ### TSLint
 
+You can use Airbnb or Microsoft setting as reference, or start with the `recommended` style. 
+
 * [recommended](https://github.com/palantir/tslint/blob/master/src/configs/recommended.ts)
 * [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
 * [tslint-config-airbnb](https://github.com/progre/tslint-config-airbnb)
+* [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
 
 ### Prettier
 
-There is an IntelliJ plugin for prettier and here is an [instruction](https://prettier.io/docs/en/webstorm.html)
+There is an IntelliJ plugin for prettier and here is an [instruction](https://prettier.io/docs/en/webstorm.html).
+precommit hook instruction is [here](https://prettier.io/docs/en/precommit.html).
 
 ## Coverage Tool
 
