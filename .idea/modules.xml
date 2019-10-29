@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/typescript-tooling-mocha.iml" filepath="$PROJECT_DIR$/.idea/typescript-tooling-mocha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/typescript-tooling-mocha.iml" filepath="$PROJECT_DIR$/typescript-tooling-mocha.iml" />
     </modules>
   </component>
 </project>

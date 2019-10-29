@@ -88,3 +88,6 @@ Thumbs.db
 
 # emacs turds
 *~
+
+# ignore iml file
+*.iml
