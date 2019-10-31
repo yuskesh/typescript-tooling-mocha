@@ -1,4 +1,13 @@
 "use strict";
+//export const hello = () => "Hello world!";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.hello = () => "Hello world!";
+class Hello {
+    constructor() {
+        console.log("Hello class");
+    }
+    sayHello() {
+        return "Hello";
+    }
+}
+exports.default = Hello;
 //# sourceMappingURL=hello-world.js.map
