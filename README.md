@@ -36,7 +36,7 @@ You can use Airbnb or Microsoft setting as reference, or start with the `recomme
 ### Prettier
 
 There is an IntelliJ plugin for prettier and here is an [instruction](https://prettier.io/docs/en/webstorm.html).
-precommit hook instruction is [here](https://prettier.io/docs/en/precommit.html).
+pre-commit hook instruction is [here](https://prettier.io/docs/en/precommit.html).
 
 ## Coverage Tool
 

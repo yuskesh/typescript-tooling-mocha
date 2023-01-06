@@ -76,9 +76,6 @@ typings/
 # next.js build output
 .next
 
-# dotenv environment variables file
-.env
-
 # Other Editors
 [._]*.sw[a-p]
 
@@ -91,3 +88,6 @@ Thumbs.db
 
 # ignore iml file
 *.iml
+
+package-lock.json
+dist/
