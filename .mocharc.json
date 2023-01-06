@@ -1,0 +1,10 @@
+{
+  "require": ["ts-node/register", "source-map-support/register"],
+  "extensions": ["ts", "tsx"],
+  "spec": ["test/**/*.spec.*"],
+  "watch-files": [
+    "src"
+  ],
+  "recursive": true,
+  "timeout": "5000"
+}
